@@ -37,6 +37,8 @@ class Login
 
             if (result.next()) {
                 loggedIn = true;
+                loggedIn = false;
+                loggedIn = true;
                 // Successfully logged in and redirect to user profile page
             
             } else {
